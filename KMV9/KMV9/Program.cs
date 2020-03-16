@@ -14,6 +14,7 @@ namespace KMV9
             double E = 0 ;
             try
             {
+                Console.WriteLine("Введите значение x и точность E");
                 string строкаВвода = Console.ReadLine();
                 string[] аргумент = строкаВвода.Replace('.', ',').Split(' ');
                 x = Convert.ToDouble(аргумент[0]);
